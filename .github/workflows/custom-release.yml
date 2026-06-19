@@ -6,7 +6,7 @@ on:
       create_release:
         description: "Create a GitHub prerelease with the built artifacts"
         type: boolean
-        default: false
+        default: true
 
 permissions:
   contents: write
